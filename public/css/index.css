@@ -1,0 +1,77 @@
+/*样式重置*/
+body{
+	margin:0;
+	padding: 0;
+}
+/*页面整体样式*/
+.main{
+	background-color: #f4f4f4;
+}
+/*头部样式*/
+.header{
+	height: 30px;
+	background-color: #272822;
+	color: white;
+	line-height: 30px;
+	text-indent: 20px;
+}
+/*导航栏样式*/
+.nav{
+	height: 100px;
+	border-bottom: 1px solid #999;
+	display: flex;
+	padding:13px 100px;
+}
+/*内容区样式*/
+.content{
+	height: 500px;
+	position:relative;
+}
+/*页尾*/
+.footer{
+	height: 30px;
+	background-color:#272822;
+	text-align: center;
+	color: white;
+	line-height: 30px; 
+}
+/*导航栏内容*/
+.nav div{
+	flex:1;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.search .sub-search{
+	background-image: url('../img/s.gif');
+	background-repeat: no-repeat;
+	height:36px;
+	outline: none;
+	border:none;
+	text-indent:16px;
+}
+.search .search-icon{
+	vertical-align: bottom;
+	margin-left: -10px;
+	height:38px;
+	outline: none;
+	border:none;
+}
+/*显示表格样式*/
+.list{
+	border-collapse:collapse;
+	width:100%;
+	color:#555;
+}
+
+.list td,.list th{
+	border:1px solid #ccc;
+	background: #fff;
+	height:35px;
+	font-size:14px;
+}
+
+.list th{
+	background: #eee;
+}
